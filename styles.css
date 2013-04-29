@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#scatterplot-cont { width:90%; max-width:1230px; position:relative; border-bottom: 1px solid #CCC; margin:2em 5%}
+#scatterplot-cont .bubble {position:absolute; border-radius:50%; -moz-border-radius:50%; z-index:1;}
+#scatterplot-cont .bubbleover {position:absolute; border-radius:50%; -moz-border-radius:50%; z-index:100}
+#scatterplot-cont .bar {position:absolute; background:rgba(235,235,235,0.5);}
+#scatterplot-cont .keyover {position:absolute; font-size:0.85em; font-family:'Benton Sans Bold',Helvetica,Arial,sans-serif; z-index:3 }
+#scatterplot-cont #nametag {position:absolute; display: none; z-index:300; font-family:Helvetica,Arial,sans-serif; font-weight:bold; width:200px;}
+  #scatterplot-cont #ntname {font-family:'Benton Sans Bold',Helvetica,Arial,sans-serif; font-size:1.3em;font-weight:normal;}
+	#scatterplot-cont #nametag span {font-weight:normal;}
+	#scatterplot-cont .ntline {padding:0.4em 0.7em; font-size:0.85em; background:#666; color:#FFF;}
+	#scatterplot-cont .ntline:last-child {padding-bottom:1em; }
+#scatterplot-cont #hkey {bottom:0.5em; right:0.5em}
+#scatterplot-cont #vkey {top:0.5em; left:0.5em}
+.ui-loader {display:none!important}
+
+.estirar:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.estirar{display:inline-block}
+.estirar{display:block}
+* html .estirar{height:1px}
